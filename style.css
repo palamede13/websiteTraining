@@ -1,0 +1,73 @@
+/* Police en local */
+/* @font-face {
+	font-family: "Doto";
+	src:
+	local("Doto");
+} */
+
+/* .doto_font {
+	font-family: "Doto", sans-serif;
+} */
+
+body {
+	background-color: black;
+	color : white;
+}
+
+.banniere-shinji {
+	padding: 100px;
+	background-image: url('img/shinjicroped.jpg');
+}
+
+.doto-font {
+	font-family: "Doto", sans-serif;
+	font-optical-sizing: auto;
+	/* font-weight: 800 800; */
+	font-style: bold;
+	font-variation-settings:
+	  "ROND" 0;
+	color: rgb(214, 220, 35);
+	font-size: 1.5em;
+  }
+
+a {
+	color:green;
+}
+
+h1, h2, h2 {
+	text-align: center;
+}
+
+h1, p {
+	color:blue;
+}
+
+p
+{
+	font-size:1.5em;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2
+{
+	font-family: 'roboto', sans-serif;
+}
+
+
+.bg {
+	color: #663399;
+}
+
+.elem1
+{
+	font-size: 2em;
+}
+
+.paragraphe1 {
+	color: #333312;
+	font-size: 30px;
+}
+
+span.adj {
+	color: #A5B4FC;
+}
