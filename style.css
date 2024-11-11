@@ -10,14 +10,20 @@
 } */
 
 body {
+	background: linear-gradient(90deg, #8360c3, #2ebf91);
 	background-color: black;
 	color : white;
 }
 
 .banniere-shinji {
-	padding: 100px;
+	opacity: 0.8;
+	padding: 200px;
 	background-image: url('img/shinjicroped.jpg');
 }
+
+/* .banniere-shinji {
+	background: url('img/shinjicroped.jpg') repeat-x;
+} */
 
 .doto-font {
 	font-family: "Doto", sans-serif;
