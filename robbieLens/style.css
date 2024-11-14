@@ -1,9 +1,18 @@
+/* MAIN BLOCK */
+
 body {
 	font-family: 'Manrope', sans-serif;
 	font-size: 1em;
 	color :#F9F8FF;
 	background-color: #1F2039;
 }
+
+*
+{
+	margin: 0;
+}
+
+/* SECONDARY BLOCK */
 
 h1
 {
@@ -24,9 +33,9 @@ a
 	text-decoration: none;
 }
 
-a:hover
+section
 {
-	text-decoration: underline;
+	padding: 80px;
 }
 
 em
@@ -37,13 +46,24 @@ em
 
 header, footer
 {
-	background-color :white
+	background-color :white;
+	padding: 20px 50px 20px 50px;
 }
+
+/* SECONDARY BLOCK  DYNAMIC */
+
+a:hover
+{
+	text-decoration: underline;
+}
+
 
 header:hover, footer:hover
 {
 	opacity : 0.5;
 }
+
+/* CLASS */
 
 .cta
 {
@@ -64,4 +84,22 @@ header:hover, footer:hover
 {
 	border-bottom: 10px solid  #8e86b5;
 	border-right: 10px solid #8e86b5;
+	padding: 50px;
+
+}
+
+.propos h2
+{
+	margin-top: 30px;
+}
+
+.propos ul
+{
+	margin-top: 30px;
+}
+
+.apropos-main
+{
+	width: 50%;
+	margin: auto;
 }
