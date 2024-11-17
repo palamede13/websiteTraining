@@ -151,6 +151,59 @@ a:hover
 
 /* CLASS */
 
+.tarifs
+{
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.htarifs
+{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 15%;
+	padding: auto;
+}
+
+.btarifs
+{
+	display: flex;
+	justify-content: space-around;
+
+	padding: auto;
+}
+
+h5
+{
+	font-size: 2.5em;
+	font-weight: 500;
+	color:#A5B4FC;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h6
+{
+	font-size: 1.1em;
+	font-weight: 400;
+	color:#A5B4FC;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btarifs-bloc
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 15px;
+	height: 200px;
+	width: 200px;
+	font-size: 0.8em;
+	font-family: 'Manrope', sans-serif;
+}
+
+
+
 .grid-paysages
 {
 	display: grid;
@@ -159,6 +212,7 @@ a:hover
 	gap: 15px;
 	margin: 0px 15% 100px 15%;
 }
+
 .grid-portraits
 {
 	display: grid;
