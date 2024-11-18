@@ -153,38 +153,36 @@ a:hover
 
 .tarifs
 {
-	display: flex;
-	flex-direction: column;
-	gap: 50px;
+	margin: 100px 15% 5% 15%;
 }
 
 .htarifs
 {
 	display: flex;
 	justify-content: space-between;
-	margin-left: 15%;
-	padding: auto;
+	margin-bottom: 100px;
 }
 
 .btarifs
 {
 	display: flex;
-	justify-content: space-around;
-
-	padding: auto;
+	justify-content: space-between;
+	/* padding: auto; */
+	gap: 20px;
 }
 
 h5
 {
-	font-size: 2.5em;
+	font-size: 4em;
 	font-weight: 500;
 	color:#A5B4FC;
 	font-family: 'Montserrat', sans-serif;
+	padding-top: 3px;
 }
 
 h6
 {
-	font-size: 1.1em;
+	font-size: 2em;
 	font-weight: 400;
 	color:#A5B4FC;
 	font-family: 'Montserrat', sans-serif;
@@ -196,13 +194,26 @@ h6
 	flex-direction: column;
 	justify-content: space-between;
 	gap: 15px;
-	height: 200px;
-	width: 200px;
-	font-size: 0.8em;
+	height: 250px;
+	width: 300px;
+	font-size: 1em;
+	font-weight: 250;
 	font-family: 'Manrope', sans-serif;
+	border-bottom: 2px #A5B4FC solid;
+	border-right: 2px #A5B4FC solid;
+	padding: 5px 30px 70px 0px;
 }
 
+.tarifs-journee
+{
+	color:#A5B4FC;
+	font-size: 1.1em;
+}
 
+.precision
+{
+	font-size: 0.8em;
+}
 
 .grid-paysages
 {
@@ -267,7 +278,6 @@ h6
 	font-size: 1.1em;
 	border-radius: 50px;
 	padding: 20px 40px 20px 40px;
-	margin-top: 30px;
 }
 
 .cta:hover
