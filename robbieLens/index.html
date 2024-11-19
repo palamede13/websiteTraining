@@ -55,13 +55,21 @@
 			</section>
 			<section class="speak">
 				<h3>Parlons de votre projet</h3>
-				<div class="contact">
-					<div class=inf-contact>
-						<div class="email"></div>
-						<div class="message"></div>
-					</div><div class="nom"></div>
-					<a href="" class="cta">ENVOYER</a>
-				</div>
+				
+				<form method="get" action="">
+					<div class=nom-mail>
+						<div>
+							<label for="nom">nom</label><br><input type ="text" name="nom" id="nom" size="30" length="20" required>
+						</div>
+						<div>
+							<label for="email">email</label><br><input type ="email" name="email" id="email" size="30" length="20" required><br>
+						</div>
+					</div>
+					<div class="message">
+						<label for="message">message</label><br><textarea name="message" id="message" rows="20" cols="100" required></textarea><br>
+						<input  class="cta" type="submit" value="Envoyer">
+					</div>
+					</form>
 			</section>
 		</main>
 		<footer>

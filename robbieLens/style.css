@@ -146,10 +146,34 @@ a:hover
 .speak
 {
 	background-color: #1F2039;
+	margin: 0px 15% 0px 15%; 
 
 }
 
 /* CLASS */
+
+.nom-mail
+{
+	display: flex;
+	justify-content: space-between;
+	/* margin: 20px 10% 20px 10%;  */
+	
+}
+
+.message
+{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+textarea
+{
+	width: 500;
+	height: 500;
+}
 
 table
 {
